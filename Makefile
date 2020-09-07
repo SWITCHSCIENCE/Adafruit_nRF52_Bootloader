@@ -45,7 +45,8 @@ SIZE    = $(CROSS_COMPILE)size
 GDB     = $(CROSS_COMPILE)gdb
 
 NRFUTIL = adafruit-nrfutil
-NRFJPROG = nrfjprog
+NRFJPROG = "/mnt/c/Program Files (x86)/Nordic Semiconductor/nrf-command-line-tools/bin/nrfjprog.exe"
+# NRFJPROG = nrfjprog
 
 MK = mkdir -p
 RM = rm -rf
